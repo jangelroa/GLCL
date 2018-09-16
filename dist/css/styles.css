@@ -2,12 +2,18 @@
 * {
   font-family: 'Nunito', sans-serif;
 }
+
+html,
+body {
+  font-size: 10px;
+}
+
 .button {
-  background-color: unset;
-  height: 40px;
-  width: 80px;
+  background-color: blue;
+  height: 4rem;
+  width: 8rem;
   display: inline-block;
-  margin: 10px 10px;
+  margin: 1rem;
 }
 
 .button p {
@@ -16,16 +22,14 @@
 
 .button.round {
   background-color: unset;
-  height: 37.5px;
-  width: 37.5px;
+  height: 3.75rem;
+  width: 3.75rem;
   border-radius: 50%;
-  border: 3px solid #F4CC61;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  border: 0.4rem solid gold;
 }
 
 .button.round.disabled {
-  border: 3px solid #F4CC61;
+  border: 0.3rem solid #F4CC61;
   opacity: 0.5;
 }
 
@@ -34,56 +38,48 @@
 }
 
 .button.round.filled {
-  background-color: #F4CC61;
-}
-
-.button.round.filled p {
-  color: #4B4F53;
-}
-
-.button.round.filled {
   background-color: gold;
 }
 
 .button.round.filled p {
-  color: #4C4F53;
+  color: #4c4f53;
 }
 
 .button.round p {
   vertical-align: middle;
   margin: auto;
   text-align: center;
-  line-height: 32px;
+  line-height: 3.2rem;
   color: #F4CC61;
-  font-size: 40px;
+  font-size: 4rem;
 }
 
 .button.square {
-  height: 45px;
-  width: 300px;
-  border-radius: 50px;
-  border: 3px solid #F4CC61;
-  margin-bottom: 20px;
+  height: 4.5rem;
+  width: 30rem;
+  border-radius: 5rem;
+  border: 0.3rem solid #F4CC61;
+  margin-bottom: 2rem;
 }
 
 .button.square p {
   vertical-align: middle;
   margin: auto;
   text-align: center;
-  line-height: 45px;
-  color: #4B4F53;
-  font-size: 14px;
+  line-height: 4.5rem;
+  color: #4b4f53;
+  font-size: 1.4rem;
 }
 
 .button.square i {
-  color: #4B4F53;
+  color: #4b4f53;
   font-weight: 900;
-  margin: auto 125px;
+  margin: auto 12.5rem;
   vertical-align: middle;
-  font-size: 25px;
-  line-height: 15px;
-  border-radius: 20px;
-  padding: 15px;
+  font-size: 2.5rem;
+  line-height: 1.5rem;
+  border-radius: 2rem;
+  padding: 1.5rem;
 }
 
 .button.square i.gold-check {
@@ -92,8 +88,8 @@
 
 .button.square.inactive {
   background-color: white;
-  border: 3px solid white;
-  margin-top: 20px;
+  border: 0.3rem solid white;
+  margin-top: 2rem;
 }
 
 .button.square.inactive p {
@@ -105,8 +101,8 @@
 }
 
 .button.square.hover {
-  background-color: #F5D67C;
-  border: 3px solid #F5D67C;
+  background-color: #f5d67c;
+  border: 0.3rem solid #f5d67c;
 }
 
 .button.square.hover p {
@@ -114,7 +110,7 @@
 }
 
 .button.square.hoverLight {
-  background-color: #8D7E53;
+  background-color: #8d7e53;
 }
 
 .button.square.hoverLight p {
@@ -122,8 +118,8 @@
 }
 
 .button.square.click {
-  background-color: #BEA04B;
-  border: 3px solid #BEA04B;
+  background-color: #bea04b;
+  border: 0.3rem solid #bea04b;
 }
 
 .button.square.dark p {
@@ -131,21 +127,21 @@
 }
 
 .button.square {
-  height: 45px;
-  width: 250px;
-  border-radius: 20px;
+  height: 4.5rem;
+  width: 25rem;
+  border-radius: 2rem;
 }
 
 .button.square p {
   vertical-align: middle;
   margin: auto;
   text-align: center;
-  font-size: 16px;
-  line-height: 15px;
+  font-size: 1.6rem;
+  line-height: 1.5rem;
   text-transform: uppercase;
-  border-radius: 20px;
+  border-radius: 2rem;
   font-family: Helvetica-light;
-  padding: 15px;
+  padding: 1.5rem;
 }
 
 .button.square.white {
@@ -153,7 +149,7 @@
 }
 
 .button.square.white p {
-  color: #BCBFC7;
+  color: #bcbfc7;
 }
 
 .button.square.gold {
@@ -161,7 +157,7 @@
 }
 
 .button.square.goldlight {
-  background-color: #F0D77C;
+  background-color: #f0d77c;
 }
 
 .button.square.golddark {
@@ -169,8 +165,8 @@
 }
 
 .button.square.grey {
-  background-color: #4C4F53;
-  border: 3px solid gold;
+  background-color: #4c4f53;
+  border: 0.3rem solid gold;
 }
 
 .button.square.grey p {
@@ -178,8 +174,8 @@
 }
 
 .button.square.silver {
-  background-color: #8C8155;
-  border: 3px solid gold;
+  background-color: #8c8155;
+  border: 0.3rem solid gold;
 }
 
 .button.square.silver p {
@@ -187,14 +183,14 @@
 }
 
 .button.square i {
-  color: #4C4F53;
+  color: #4c4f53;
   font-weight: 900;
-  margin: auto 100px;
-  font-size: 25px;
-  line-height: 15px;
+  margin: auto 10rem;
+  font-size: 2.5rem;
+  line-height: 1.5rem;
   text-transform: uppercase;
-  border-radius: 20px;
-  padding: 15px;
+  border-radius: 2rem;
+  padding: 1.5rem;
 }
 
 .button.square i.goldcheck {
